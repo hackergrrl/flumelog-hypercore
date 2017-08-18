@@ -1,0 +1,29 @@
+{
+  "name": "flumelog-hypercore",
+  "description": "flumelog atop hypercore",
+  "author": "Stephen Whitmore <sww@eight.net>",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/flumelog-hypercore.git"
+  },
+  "homepage": "https://github.com/noffle/flumelog-hypercore",
+  "bugs": "https://github.com/noffle/flumelog-hypercore/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "dependencies": {
+    "obv": "0.0.1",
+    "stream-to-pull-stream": "^1.7.2"
+  },
+  "devDependencies": {
+    "hypercore": "^6.7.0",
+    "random-access-memory": "^2.4.0",
+    "standard": "~10.0.0",
+    "tape": "~4.6.2",
+    "test-flumelog": "^1.0.0"
+  },
+  "license": "ISC"
+}
